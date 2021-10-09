@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:scrollbarThumbHorizontal="@color/common_google_signin_btn_text_light_pressed"
+            android:scrollbarThumbVertical="@color/common_google_signin_btn_text_light_pressed">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/gname1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/gdesc1"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_toEndOf="@+id/gimg1"
+                    android:text="Great professionalism and the place is way modern; fully equipped with latest medical gadgets and equipments.
+My only concern is that the place is a bit expensive.
+Worth every penny." />
+
+                <TextView
+                    android:id="@+id/gdesc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/gimg1"
+                    android:forceDarkAllowed="true"
+                    android:text="Moi Teaching And Referral Hospital"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#1E6D11"
+                    android:textDirection="firstStrong"
+                    android:textIsSelectable="false"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/gimg1"
+                    android:layout_width="160dp"
+                    android:layout_height="98dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/frontt" />
+
+                <Button
+                    android:id="@+id/gb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname1"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="false"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="21dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="buttonClick"
+                    android:text="@string/get_drections"
+                    android:textColor="@color/quantum_white_text"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:id="@+id/det1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname1"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_toStartOf="@+id/gb1"
+                    android:layout_toEndOf="@+id/gimg1"
+                    android:background="@drawable/buttonshape"
+                    android:text="Details"
+                    android:textColor="@color/quantum_white_text"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/det2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname2"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_toStartOf="@+id/gb2"
+                    android:layout_toEndOf="@+id/gimg2"
+                    android:background="@drawable/buttonshape"
+                    android:text="Details"
+                    android:textColor="@color/quantum_white_text"
+
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/gname2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/gdesc2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_toEndOf="@+id/gimg2"
+                    android:text="This is a small private hospital. It is relatively well equipped. Currently there are not accepting cash payment. They have friendly staff who go out of their way to ensure you are served quickly." />
+
+                <TextView
+                    android:id="@+id/gdesc2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/gimg2"
+                    android:forceDarkAllowed="true"
+                    android:text="St. Luke's Orthopaedic &amp; Trauma Hospital"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#1E6D11"
+                    android:textDirection="firstStrong"
+                    android:textIsSelectable="false"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/gimg2"
+                    android:layout_width="160dp"
+                    android:layout_height="98dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/frontt" />
+
+                <Button
+                    android:id="@+id/gb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="false"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="21dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="buttonClick"
+                    android:text="@string/get_drections"
+                    android:textColor="@color/quantum_white_text"
+
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/det3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname3"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_toStartOf="@+id/gb3"
+                    android:layout_toEndOf="@+id/gimg3"
+                    android:background="@drawable/buttonshape"
+                    android:text="Details"
+                    android:textColor="@color/quantum_white_text"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/gname3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/gdesc3"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_toEndOf="@+id/gimg3"
+                    android:text="Quality service" />
+
+                <TextView
+                    android:id="@+id/gdesc3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/gimg3"
+                    android:forceDarkAllowed="true"
+                    android:text="Avenue Healthcare Eldoret Clinic"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#1E6D11"
+                    android:textDirection="firstStrong"
+                    android:textIsSelectable="false"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/gimg3"
+                    android:layout_width="160dp"
+                    android:layout_height="98dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/frontt" />
+
+                <Button
+                    android:id="@+id/gb3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname3"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="false"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="21dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="buttonClick"
+                    android:text="@string/get_drections"
+                    android:textColor="@color/quantum_white_text"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/det4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname4"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_toStartOf="@+id/gb4"
+                    android:layout_toEndOf="@+id/gimg4"
+                    android:background="@drawable/buttonshape"
+                    android:text="@string/details"
+                    android:textColor="@color/quantum_white_text"
+
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/gname4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/gdesc4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_toEndOf="@+id/gimg4"
+                    android:text="Efficient medical care" />
+
+                <TextView
+                    android:id="@+id/gdesc4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/gimg4"
+                    android:forceDarkAllowed="true"
+                    android:text="Fountain Healthcare"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#1E6D11"
+                    android:textDirection="firstStrong"
+                    android:textIsSelectable="false"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/gimg4"
+                    android:layout_width="160dp"
+                    android:layout_height="98dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/frontt" />
+
+                <Button
+                    android:id="@+id/gb4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="false"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="21dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="buttonClick"
+                    android:text="@string/get_drections"
+                    android:textColor="@color/quantum_white_text"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/det5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname5"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_toStartOf="@+id/gb5"
+                    android:layout_toEndOf="@+id/gimg5"
+                    android:background="@drawable/buttonshape"
+                    android:text="Details"
+                    android:textColor="@color/quantum_white_text"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/gname5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/gdesc5"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_toEndOf="@+id/gimg5"
+                    android:text="Great professionalism and the place is way modern; fully equipped with latest medical gadgets and equipments." />
+
+                <TextView
+                    android:id="@+id/gdesc5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/gimg5"
+                    android:forceDarkAllowed="true"
+                    android:text="Pioneer X-Ray &amp; Scanning Services"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#1E6D11"
+                    android:textDirection="firstStrong"
+                    android:textIsSelectable="false"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/gimg5"
+                    android:layout_width="160dp"
+                    android:layout_height="98dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/frontt" />
+
+                <Button
+                    android:id="@+id/gb5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname5"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="false"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="21dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="buttonClick"
+                    android:text="@string/get_drections"
+                    android:textColor="@color/quantum_white_text"
+
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="119dp">
+
+                <Button
+                    android:id="@+id/det6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname6"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_toStartOf="@+id/gb6"
+                    android:layout_toEndOf="@+id/gimg6"
+                    android:background="@drawable/buttonshape"
+
+                    android:text="Details"
+                    android:textColor="@color/quantum_white_text"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+                <TextView
+                    android:id="@+id/gname6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/gdesc6"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_toEndOf="@+id/gimg6"
+                    android:text="State of the art services, experienced specialists and homely personnel" />
+
+                <TextView
+                    android:id="@+id/gdesc6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/gimg6"
+                    android:forceDarkAllowed="true"
+                    android:text="Wareng Medical Services"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#1E6D11"
+                    android:textDirection="firstStrong"
+                    android:textIsSelectable="false"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/gimg6"
+                    android:layout_width="160dp"
+                    android:layout_height="98dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/frontt" />
+
+                <Button
+                    android:id="@+id/gb6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname6"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="buttonClick"
+                    android:text="@string/get_drections"
+                    android:textColor="@color/quantum_white_text"
+
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/det7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname7"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_toStartOf="@+id/gb7"
+                    android:layout_toEndOf="@+id/gimg7"
+                    android:background="@drawable/buttonshape"
+
+                    android:text="Details"
+                    android:textColor="@color/quantum_white_text"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+                <TextView
+                    android:id="@+id/gname7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/gdesc7"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_toEndOf="@+id/gimg7"
+                    android:text="Excellent medical facility" />
+
+                <TextView
+                    android:id="@+id/gdesc7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/gimg7"
+                    android:forceDarkAllowed="true"
+                    android:text="Bliss GVS Healthcare Eldoret"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#1E6D11"
+                    android:textDirection="firstStrong"
+                    android:textIsSelectable="false"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/gimg7"
+                    android:layout_width="160dp"
+                    android:layout_height="98dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/frontt" />
+
+                <Button
+                    android:id="@+id/gb7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname7"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="false"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="21dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="buttonClick"
+                    android:text="@string/get_drections"
+
+                    android:textColor="@color/quantum_white_text"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/det8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname8"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_toStartOf="@+id/gb8"
+                    android:layout_toEndOf="@+id/gimg8"
+                    android:background="@drawable/buttonshape"
+                    android:text="Details"
+                    android:textColor="@color/quantum_white_text"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+                <TextView
+                    android:id="@+id/gname8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/gdesc8"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_toEndOf="@+id/gimg8"
+                    android:text="Great Doctors and nurses who take time to listen to the patient and take time to investigate the problems. God Bless you abundantly." />
+
+                <TextView
+                    android:id="@+id/gdesc8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/gimg8"
+                    android:forceDarkAllowed="true"
+                    android:text="AAR Healthcare, Eldoret Clinic"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#1E6D11"
+                    android:textDirection="firstStrong"
+                    android:textIsSelectable="false"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/gimg8"
+                    android:layout_width="160dp"
+                    android:layout_height="98dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/frontt" />
+
+                <Button
+                    android:id="@+id/gb8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname8"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="false"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="21dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="buttonClick"
+                    android:text="@string/get_drections"
+                    android:textColor="@color/quantum_white_text"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/det9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname9"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_toStartOf="@+id/gb9"
+                    android:layout_toEndOf="@+id/gimg9"
+                    android:background="@drawable/buttonshape"
+
+                    android:text="Details"
+                    android:textColor="@color/quantum_white_text"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+                <TextView
+                    android:id="@+id/gname9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/gdesc9"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_toEndOf="@+id/gimg9"
+                    android:text="Comprehensive medical attendance" />
+
+                <TextView
+                    android:id="@+id/gdesc9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/gimg9"
+                    android:forceDarkAllowed="true"
+                    android:text="Cedar Clinical Associates"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#1E6D11"
+                    android:textDirection="firstStrong"
+                    android:textIsSelectable="false"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/gimg9"
+                    android:layout_width="160dp"
+                    android:layout_height="98dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/frontt" />
+
+                <Button
+                    android:id="@+id/gb9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname9"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="false"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="21dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="buttonClick"
+                    android:text="@string/get_drections"
+                    android:textColor="@color/quantum_white_text"
+
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/det10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname10"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="17dp"
+
+                    android:layout_toStartOf="@+id/gb10"
+                    android:layout_toEndOf="@+id/gimg10"
+                    android:background="@drawable/buttonshape"
+
+                    android:text="Details"
+                    android:textColor="@color/quantum_white_text"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+                <TextView
+                    android:id="@+id/gname10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/gdesc10"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_toEndOf="@+id/gimg10"
+                    android:text="A health care facility offering high quality maternity services and child care" />
+
+                <TextView
+                    android:id="@+id/gdesc10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/gimg10"
+                    android:forceDarkAllowed="true"
+                    android:text="Fhok - Family Care Medical Centre"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#1E6D11"
+                    android:textDirection="firstStrong"
+                    android:textIsSelectable="false"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/gimg10"
+                    android:layout_width="160dp"
+                    android:layout_height="98dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/frontt" />
+
+                <Button
+                    android:id="@+id/gb10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname10"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="false"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="21dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="buttonClick"
+                    android:text="@string/get_drections"
+                    android:textColor="@color/quantum_white_text"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>

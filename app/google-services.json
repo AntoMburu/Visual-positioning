@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "93453078716",
+    "firebase_url": "https://webdev-236903.firebaseio.com",
+    "project_id": "webdev-236903",
+    "storage_bucket": "webdev-236903.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93453078716:android:c09c536aaa4e511ec800b9",
+        "android_client_info": {
+          "package_name": "com.NBT_Tech.visuapositioningbusinesslocator"
+
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93453078716-hmlaes6hrmj01dsv6ku31t72bnt4fr5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVT-fcV5yAHS4qLRyAXIZndYdZBUDgjtI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93453078716-hmlaes6hrmj01dsv6ku31t72bnt4fr5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

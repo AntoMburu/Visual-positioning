@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--item
+        android:id="@+id/title"
+        android:title="@string/Categories"
+        /-->
+
+    <group
+        android:id="@+id/Group"
+        android:checkableBehavior="single"
+        android:visible="true">
+
+        <item
+            android:id="@+id/GOV"
+            android:icon="@drawable/ic_business_black_24dp"
+            android:title="@string/gov" />
+        <item
+            android:id="@+id/MED"
+            android:icon="@drawable/ic_local_hospital_black_24dp"
+            android:title="@string/med" />
+        <item
+            android:id="@+id/INSURANCE"
+            android:icon="@drawable/ic_local_atm_black_24dp"
+            android:title="@string/banking" />
+
+
+        <item
+            android:id="@+id/eat"
+            android:icon="@drawable/ic_local_dining_black_24dp"
+            android:title="@string/eat" />
+
+        <item
+            android:id="@+id/SUPER"
+            android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+            android:title="@string/supermarkets" />
+
+        <item
+            android:id="@+id/ENT"
+            android:icon="@drawable/ic_repair"
+            android:title="@string/repair" />
+
+        <item
+            android:id="@+id/CLOTH"
+            android:icon="@drawable/ic_sweater_with_hood"
+            android:title="@string/cloth" />
+
+
+        <item
+            android:id="@+id/hware"
+            android:icon="@drawable/ic_hardwaretools"
+            android:title="@string/hardware" />
+
+        <item
+            android:id="@+id/agrov"
+            android:icon="@drawable/ic_pets_black_24dp"
+            android:title="@string/agrov" />
+
+
+    </group>
+
+    <item
+        android:id="@+id/contact"
+        android:title="Support ">
+        <menu>
+            <item
+                android:id="@+id/allLoc"
+                android:title="@string/action_settings" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/HOME">
+
+    <fragment
+        android:id="@+id/HOME"
+        android:name="com.NBT_Tech.visuapositioningbusinesslocator.ui.home.HomeFragment"
+        android:label="@string/HOME"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/GOV"
+        android:name="com.NBT_Tech.visuapositioningbusinesslocator.ui.government.governmentFragment"
+        android:label="@string/gov"
+        tools:layout="@layout/government" />
+
+    <fragment
+        android:id="@+id/MED"
+        android:name="com.NBT_Tech.visuapositioningbusinesslocator.ui.medicine.medicineFragment"
+        android:label="@string/med"
+        tools:layout="@layout/medicine" />
+
+    <fragment
+        android:id="@+id/eat"
+        android:name="com.NBT_Tech.visuapositioningbusinesslocator.ui.eat.eatFragment"
+        android:label="@string/eat"
+        tools:layout="@layout/eat" />
+
+    <fragment
+        android:id="@+id/EDU"
+        android:name="com.NBT_Tech.visuapositioningbusinesslocator.ui.education.educationFragment"
+        android:label="@string/edu"
+        tools:layout="@layout/education" />
+
+    <fragment
+        android:id="@+id/INSURANCE"
+        android:name="com.NBT_Tech.visuapositioningbusinesslocator.ui.insuarance.insuaranceFragment"
+        android:label="@string/banking"
+        tools:layout="@layout/insuarance" />
+
+    <fragment
+        android:id="@+id/BEAUTY"
+        android:name="com.NBT_Tech.visuapositioningbusinesslocator.ui.beauty.BeautyFragment"
+        android:label="@string/beauty"
+        tools:layout="@layout/fragment_beauty" />
+
+    <fragment
+        android:id="@+id/ENT"
+        android:name="com.NBT_Tech.visuapositioningbusinesslocator.ui.enter.enterFragment"
+        android:label="@string/ent"
+        tools:layout="@layout/enter" />
+
+    <fragment
+        android:id="@+id/SUPER"
+        android:name="com.NBT_Tech.visuapositioningbusinesslocator.ui.superm.superFragment"
+        android:label="@string/supermarkets"
+        tools:layout="@layout/superm" />
+
+
+    <fragment
+        android:id="@+id/CLOTH"
+        android:name="com.NBT_Tech.visuapositioningbusinesslocator.ui.clothing.clothingFragment"
+        android:label="@string/cloth"
+        tools:layout="@layout/clothing" />
+
+    <fragment
+        android:id="@+id/elec"
+        android:name="com.NBT_Tech.visuapositioningbusinesslocator.ui.electronic.electronicFragment"
+        android:label="@string/elec"
+        tools:layout="@layout/electronic" />
+
+    <fragment
+        android:id="@+id/hware"
+        android:name="com.NBT_Tech.visuapositioningbusinesslocator.ui.hware.hwareFragment"
+        android:label="@string/hardware"
+        tools:layout="@layout/hware" />
+
+    <fragment
+        android:id="@+id/agrov"
+        android:name="com.NBT_Tech.visuapositioningbusinesslocator.ui.agrov.agrovFragment"
+        android:label="@string/agrov"
+        tools:layout="@layout/agrov" />
+    <fragment
+        android:id="@+id/repair"
+        android:name="com.NBT_Tech.visuapositioningbusinesslocator.ui.repair.repairFragment"
+        android:label="@string/repair"
+        tools:layout="@layout/repair" />
+    <fragment
+        android:id="@+id/allLoc"
+        android:name="com.NBT_Tech.visuapositioningbusinesslocator.ui.alllocs"
+        android:label="@string/action_settings"
+        tools:layout="@layout/activity_main"/>
+
+
+
+</navigation>

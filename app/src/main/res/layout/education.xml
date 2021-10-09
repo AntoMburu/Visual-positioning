@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/gname1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/gdesc1"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_toEndOf="@+id/gimg1"
+                    android:text="Huduma center, where you get all fgf fgfgf dfdfd  Huduma center, where you get all asas asasa sa your gov details your gov details" />
+
+                <TextView
+                    android:id="@+id/gdesc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/gimg1"
+                    android:forceDarkAllowed="true"
+                    android:text="Huduma Center"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#1E6D11"
+                    android:textDirection="firstStrong"
+                    android:textIsSelectable="false"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/gimg1"
+                    android:layout_width="160dp"
+                    android:layout_height="98dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:visibility="visible"
+      app:srcCompat="@drawable/frontt" />
+
+                <Button
+                    android:id="@+id/gb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname1"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="false"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="21dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="buttonClick"
+                    android:text="@string/get_drections"
+                    android:textColor="@color/quantum_white_text"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:id="@+id/det1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname1"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_toStartOf="@+id/gb1"
+                    android:layout_toEndOf="@+id/gimg1"
+                    android:background="@drawable/buttonshape"
+                    android:text="Details"
+                    android:textColor="@color/quantum_white_text"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/det2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname2"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_toStartOf="@+id/gb2"
+                    android:layout_toEndOf="@+id/gimg2"
+                    android:background="@drawable/buttonshape"
+                    android:text="Details"
+                    android:textColor="@color/quantum_white_text"
+
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/gname2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/gdesc2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_toEndOf="@+id/gimg2"
+                    android:text="Great service rendered... Very fast and I got a free screen protector" />
+
+                <TextView
+                    android:id="@+id/gdesc2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/gimg2"
+                    android:forceDarkAllowed="true"
+                    android:text="Huduma Center"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#1E6D11"
+                    android:textDirection="firstStrong"
+                    android:textIsSelectable="false"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/gimg2"
+                    android:layout_width="160dp"
+                    android:layout_height="98dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/police" />
+
+                <Button
+                    android:id="@+id/gb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="false"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="21dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="buttonClick"
+                    android:text="@string/get_drections"
+                    android:textColor="@color/quantum_white_text"
+
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/det3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname3"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_toStartOf="@+id/gb3"
+                    android:layout_toEndOf="@+id/gimg3"
+                    android:background="@drawable/buttonshape"
+                    android:text="Details"
+                    android:textColor="@color/quantum_white_text"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/gname3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/gdesc3"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_toEndOf="@+id/gimg3"
+                    android:text="Huduma center, where you get all your gov details" />
+
+                <TextView
+                    android:id="@+id/gdesc3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/gimg3"
+                    android:forceDarkAllowed="true"
+                    android:text="Huduma Center"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#1E6D11"
+                    android:textDirection="firstStrong"
+                    android:textIsSelectable="false"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/gimg3"
+                    android:layout_width="160dp"
+                    android:layout_height="98dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/guardian" />
+
+                <Button
+                    android:id="@+id/gb3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname3"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="false"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="21dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="buttonClick"
+                    android:text="@string/get_drections"
+                    android:textColor="@color/quantum_white_text"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/det4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname4"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_toStartOf="@+id/gb4"
+                    android:layout_toEndOf="@+id/gimg4"
+                    android:background="@drawable/buttonshape"
+                    android:text="@string/details"
+                    android:textColor="@color/quantum_white_text"
+
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/gname4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/gdesc4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_toEndOf="@+id/gimg4"
+                    android:text="Great service rendered... Very fast and I got a free screen protector" />
+
+                <TextView
+                    android:id="@+id/gdesc4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/gimg4"
+                    android:forceDarkAllowed="true"
+                    android:text="Huduma Center"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#1E6D11"
+                    android:textDirection="firstStrong"
+                    android:textIsSelectable="false"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/gimg4"
+                    android:layout_width="160dp"
+                    android:layout_height="98dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/national" />
+
+                <Button
+                    android:id="@+id/gb4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="false"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="21dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="buttonClick"
+                    android:text="@string/get_drections"
+                    android:textColor="@color/quantum_white_text"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/det5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname5"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_toStartOf="@+id/gb5"
+                    android:layout_toEndOf="@+id/gimg5"
+                    android:background="@drawable/buttonshape"
+                    android:text="Details"
+                    android:textColor="@color/quantum_white_text"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/gname5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/gdesc5"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_toEndOf="@+id/gimg5"
+                    android:text="Huduma center, where you get all your gov details" />
+
+                <TextView
+                    android:id="@+id/gdesc5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/gimg5"
+                    android:forceDarkAllowed="true"
+                    android:text="Huduma Center"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#1E6D11"
+                    android:textDirection="firstStrong"
+                    android:textIsSelectable="false"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/gimg5"
+                    android:layout_width="160dp"
+                    android:layout_height="98dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/nic" />
+
+                <Button
+                    android:id="@+id/gb5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname5"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="false"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="21dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="buttonClick"
+                    android:text="@string/get_drections"
+                    android:textColor="@color/quantum_white_text"
+
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="119dp">
+
+                <Button
+                    android:id="@+id/det6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname6"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_toStartOf="@+id/gb6"
+                    android:layout_toEndOf="@+id/gimg6"
+                    android:background="@drawable/buttonshape"
+
+                    android:text="Details"
+                    android:textColor="@color/quantum_white_text"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+                <TextView
+                    android:id="@+id/gname6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/gdesc6"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_toEndOf="@+id/gimg6"
+                    android:text="Huduma center, where you get all your gov details" />
+
+                <TextView
+                    android:id="@+id/gdesc6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/gimg6"
+                    android:forceDarkAllowed="true"
+                    android:text="Huduma Center"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#1E6D11"
+                    android:textDirection="firstStrong"
+                    android:textIsSelectable="false"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/gimg6"
+                    android:layout_width="160dp"
+                    android:layout_height="98dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/cooperat" />
+
+                <Button
+                    android:id="@+id/gb6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname6"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="buttonClick"
+                    android:text="@string/get_drections"
+                    android:textColor="@color/quantum_white_text"
+
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/det7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname7"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_toStartOf="@+id/gb7"
+                    android:layout_toEndOf="@+id/gimg7"
+                    android:background="@drawable/buttonshape"
+
+                    android:text="Details"
+                    android:textColor="@color/quantum_white_text"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+                <TextView
+                    android:id="@+id/gname7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/gdesc7"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_toEndOf="@+id/gimg7"
+                    android:text="Great service rendered... Very fast and I got a free screen protector" />
+
+                <TextView
+                    android:id="@+id/gdesc7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/gimg7"
+                    android:forceDarkAllowed="true"
+                    android:text="Huduma Center"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#1E6D11"
+                    android:textDirection="firstStrong"
+                    android:textIsSelectable="false"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/gimg7"
+                    android:layout_width="160dp"
+                    android:layout_height="98dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/eldowas" />
+
+                <Button
+                    android:id="@+id/gb7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/gname7"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="false"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="21dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="buttonClick"
+                    android:text="@string/get_drections"
+
+                    android:textColor="@color/quantum_white_text"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>
